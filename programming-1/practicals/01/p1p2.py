@@ -1,0 +1,10 @@
+print("Class version")
+print("Good morning!")
+print("Vietnam!")
+print("Good morning,","Vietnam!")
+print("")
+print("Assignment version")
+print("Good Morning")
+print("Vietnam")
+print("Good Morning,","Vietnam")
+

@@ -1,0 +1,14 @@
+show = "Pluribus"
+letter1 = show[0]
+letter2 = show[1]
+letter3 = show[2]
+letter4 = show[3]
+letter5 = show[4]
+print("First letter:", letter1)
+print("Second letter:", letter2)
+print("Third letter:", letter3)
+print("Fourth letter:", letter4)
+print("Fifth letter:", letter5)
+print("Sixth letter:", show[5])
+print("Seventh letter:", show[-2])
+print("Eighth letter:", show[-1])
