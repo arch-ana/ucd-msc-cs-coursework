@@ -16,6 +16,7 @@ initiate limit with value 20 as we want to print multiples of 6 from
 0 times to 20 times
 limit = 20
 if user_input >= 0:
+    print(times input table)
     while counter <= limit:
         we print the counter and the product
         increment counter
@@ -29,6 +30,7 @@ user_input = int(input("Please enter a non-negative integer: "))
 counter, limit = 0, 20
 
 if user_input >= 0:
+    print("Times", user_input, "Table")
     while counter <= limit:
         print(counter,"\t",counter*user_input)
         counter += 1
