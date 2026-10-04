@@ -20,10 +20,9 @@ user_input = int(input("Please enter a positive integer: "))
 if user_input<0:
     print("You entered a negative number. Program terminates")
 else:
-    factorial, counter = 1, 1
-    while counter <= user_input:
-        factorial *= counter
-        counter += 1
+    factorial = 1
+    for num in range(user_input):
+        factorial*=(num+1)
     print("Factorial of", user_input, "is", factorial)
     print("Program terminates")
 
