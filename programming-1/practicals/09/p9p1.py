@@ -21,13 +21,13 @@ print the sum is, sum
 
 user_input = int(input("Please enter a positive integer: "))
 
-counter, sum = 1, 0
+counter, int_sum = 1, 0
 
-if user_input >= 0:
+if user_input = 0:
     while counter <= user_input:
-        sum += counter
+        int_sum += counter
         counter += 1
-    print("Sum of integers up to and including", user_input, "is", sum)
+    print("Sum of integers up to and including", user_input, "is", int_sum)
 else:
     print("Sorry, you did not enter a positive integer")
 

@@ -45,7 +45,7 @@ while counter<=c:
     counter += 1
 
 
-if toppings>0 and toppings_on_standard_pizza>=0:
+if 0 <= toppings_on_standard_pizza <= toppings:
     print("Number of combinations possible is:", a_fact//(b_fact*c_fact))
 else:
-    print("Neither of these can be a negative number. Toppings cannot be zero either. Program terminates. ")
+    print("Invalid numbers. Program terminates. ")

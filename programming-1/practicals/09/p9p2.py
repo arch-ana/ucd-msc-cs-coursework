@@ -22,7 +22,7 @@ else:
 
 user_input = int(input("Please enter a positive integer. Enter a negative integer to terminate the program: "))
 
-while user_input>=0:
+while user_input>0:
     counter = 1
     sum = 0
     for num in range(user_input):
@@ -31,4 +31,4 @@ while user_input>=0:
     print("Sum of integers up to and including", user_input, "is", sum)
     user_input = int(input("Please enter a positive integer. Enter a negative integer to terminate the program: "))
 else:
-    print("You entered a negative integer. Program terminates.")
+    print("You entered a non-positive integer. Program terminates.")
