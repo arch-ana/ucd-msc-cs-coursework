@@ -1,0 +1,29 @@
+def print_max():
+    '''Function that prints out the largest of two numbers
+
+    Uses the function max to find the largest'''
+    def max(a,b):
+        '''Function that returns the largest of its two arguments'''
+        if a>b:
+            return a
+        else:
+            return b
+
+    number1 = float(input("Enter first number: "))
+    number2 = float(input("Enter second number: "))
+    print('The largest of', number1, "and", number2, "is", max(number1, number2))
+    return 
+
+## print(print_max())
+## a) The line print(print_max()) prints a None. This is because the print_max() function does not return anything.
+## When a function does not explicitly return anything, it by default returns None, which is what is being printed.
+## When we call a function within a print statement when the function does not return anything, a None gets printed. 
+
+## print_max
+## b) print_max alone will not do anything, it does not call the function in the absence of the parenthesis. nothing is printed. 
+
+## print(print_max)
+## c) if the brackets after print_max() is omitted and we just type print(print_max), the program prints that print_max is a function and the memory location of
+## the function print_max()
+## <function print_max at 0x000001FEE885CC20>
+
