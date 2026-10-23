@@ -1,0 +1,6 @@
+Number of left angles: 2254
+Number of right angles: 2254
+Number of new lines: 180
+Number of lower case e: 19332
+Number of <!-- strings: 47
+Number of --> strings: 47
