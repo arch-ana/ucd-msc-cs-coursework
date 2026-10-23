@@ -1,0 +1,16 @@
+This program processes files and generates statistics
+It counts vowels and consonants and digits
+The vowels are the letters A E I O and U
+The digits are 0, 1, 2, 3, 4, 5, 6, 7, 8 and 9
+This program processes files and generates statistics and this line is longer than the first one
+
+The previous line was a blank line
+The next line was a blank line
+
+A E I O U A E I O U A E I O U A E I O U
+AEIOU AEIOU AEIOU AEIOU AEIOU AEIOU
+0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9
+012345 6789 01234 56789 012 345 6789
+
+This program processes files and generates statistics and this line is longer than the first one
+This is Line Sixteen

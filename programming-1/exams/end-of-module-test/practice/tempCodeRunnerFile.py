@@ -1,0 +1,1 @@
+d = factorial(-1)
